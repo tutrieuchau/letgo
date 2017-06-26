@@ -1,0 +1,14 @@
+{
+  "name": "api",
+  "version": "1.1.2",
+  "description": "This Api for Android",
+  "main": "api.js",
+  "scripts": {
+    "test": ""
+  },
+  "author": "Tu Trieu Chau",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
