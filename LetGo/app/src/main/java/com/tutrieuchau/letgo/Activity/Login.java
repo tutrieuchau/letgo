@@ -1,15 +1,16 @@
 package com.tutrieuchau.letgo.Activity;
 
-import android.support.v7.app.AppCompatActivity;
+import android.app.ActionBar;
 import android.os.Bundle;
+import android.view.View;
 
 import com.tutrieuchau.letgo.R;
 
-public class Login extends AppCompatActivity {
+public class Login extends BaseActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
+
     }
 }

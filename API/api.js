@@ -1,8 +1,7 @@
 const express = require("express");
-const router = require("router/router.js");
 const app = express();
 
-var application = new router(app);
+var application = require("router/router.js")(app);
 app.listen(1957,function(){
     console.log("Server is start");
 })

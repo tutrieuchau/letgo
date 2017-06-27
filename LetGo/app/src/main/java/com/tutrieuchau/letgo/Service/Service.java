@@ -17,7 +17,7 @@ import java.net.MalformedURLException;
 import java.net.URL;
 
 /**
- * Created by ductam on 2017/06/26.
+ * Created by TuTrieuChau on 2017/06/26.
  */
 
 public class Service extends AsyncTask<JSONObject,Void,JSONObject> {
