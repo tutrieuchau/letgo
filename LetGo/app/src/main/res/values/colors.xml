@@ -6,5 +6,7 @@
     <color name="colorOrange">#F1604D</color>
     <color name="colorWhite">#FFFFFF</color>
     <color name="textNormalColor">#c3c3c3</color>
+    <color name="colorFacebook">#3b5998</color>
+    <color name="colorGoogle">#d34836</color>
 
 </resources>

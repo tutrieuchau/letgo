@@ -1,10 +1,25 @@
 <resources>
     <string name="app_name">LetGo</string>
-    <string name="hintEmail">  Email</string>
+    <string name="hintEmail">  Email or ID</string>
     <string name="hintPassword">  Password</string>
+    <string name="hintRgName">  Name</string>
+    <string name="hintRgLogin">  Login Name</string>
+    <string name="hintRgEmail">  Email</string>
+    <string name="hintRgPassword">  Password</string>
+    <string name="hintRgCfPassword">  Confirm Password</string>
+    <string name="hintRgBirth">  Birth day</string>
+    <string name="hintActiveCode">Active Code</string>
     <string name="btnLogin">LOGIN</string>
-    <string name="txt_sign_up">Don't have an account ?</string>
+    <string name="btnCreate">Create Account</string>
     <string name="btn_sign_up">Sign up</string>
-    <string name="txt_term">You agree to out Term and Private Policy</string>
+    <string name="btn_active">Active</string>
+    <string name="btn_rg_signin">SIGN IN</string>
+    <string name="btn_resend_email">Resend Email</string>
+    <string name="txt_sign_up">Dont have an account ?</string>
+    <string name="txt_term">You agree to our Term and Private Policy</string>
+    <string name="txt_rg_term">I agree with Term and Private Policy</string>
+    <string name="txt_rg_account">Have an account?</string>
+    <string name="txt_receiver_email">I do not receiver any email ?  </string>
+
 
 </resources>
