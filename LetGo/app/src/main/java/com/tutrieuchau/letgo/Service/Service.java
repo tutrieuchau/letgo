@@ -31,7 +31,7 @@ public class Service extends AsyncTask<JSONObject,Void,JSONObject> {
     @Override
     protected void onPreExecute() {
         super.onPreExecute();
-        //TODO: show Load process
+        //TODO: show Load process and check connect internet
     }
 
     @Override
@@ -88,9 +88,5 @@ public class Service extends AsyncTask<JSONObject,Void,JSONObject> {
         serviceCallback.onProcessComplete(result);
         //TODO: Hide Load Process
     }
- private interface ServiceCallback{
-     void onProcessComplete(JSONObject result);
- }
-
 }
 

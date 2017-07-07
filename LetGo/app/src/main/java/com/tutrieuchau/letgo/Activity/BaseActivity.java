@@ -15,12 +15,11 @@ public class BaseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_login);
-        View decorView = getWindow().getDecorView();
         // Hide the status bar.
+        View decorView = getWindow().getDecorView();
         int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
         decorView.setSystemUiVisibility(uiOptions);
         this.getSupportActionBar().hide();
-       // actionBar.hide();
+
     }
 }

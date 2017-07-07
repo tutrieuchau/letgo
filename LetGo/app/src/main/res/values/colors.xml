@@ -2,10 +2,11 @@
 <resources>
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorBlack">#1c1c1c</color>
     <color name="colorAccent">#FF4081</color>
     <color name="colorOrange">#F1604D</color>
     <color name="colorWhite">#FFFFFF</color>
-    <color name="textNormalColor">#c3c3c3</color>
+    <color name="textNormalColor">#424242</color>
     <color name="colorFacebook">#3b5998</color>
     <color name="colorGoogle">#d34836</color>
 

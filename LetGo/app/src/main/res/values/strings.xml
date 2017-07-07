@@ -8,7 +8,7 @@
     <string name="hintRgPassword">  Password</string>
     <string name="hintRgCfPassword">  Confirm Password</string>
     <string name="hintRgBirth">  Birth day</string>
-    <string name="hintActiveCode">Active Code</string>
+    <string name="hintActiveCode">Enter Your Active Code</string>
     <string name="btnLogin">LOGIN</string>
     <string name="btnCreate">Create Account</string>
     <string name="btn_sign_up">Sign up</string>
@@ -20,6 +20,12 @@
     <string name="txt_rg_term">I agree with Term and Private Policy</string>
     <string name="txt_rg_account">Have an account?</string>
     <string name="txt_receiver_email">I do not receiver any email ?  </string>
+    <string name="txt_active_dialog_title">We already sent a email with Active Code to your register email</string>
+    <string name="txt_description_active_code">We already sent a email with Active Code to your register email</string>
+    <string name="error_username_empty">Username or Password is empty</string>
+    <string name="error_password_wrong">Username or Password is wrong</string>
+    <string name="error_username_not_exist">Username is not registered</string>
+    <string name="error_server_error">Server is busy, please try again late</string>
 
 
 </resources>
