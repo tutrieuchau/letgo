@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--Header -->
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        >
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="90dp"
+                android:id="@+id/imgMeThumbnails"
+                android:background="@color/colorBlack"
+                />
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txtMeAccountName"
+            android:text="Từ Triều Châu"
+            android:textSize="18sp"
+            android:textColor="@color/colorBlack"
+            android:layout_marginLeft="100dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="19:45 Ngày 10 tháng 7"
+            android:id="@+id/txtMePostTime"
+            android:textSize="14sp"
+            android:textColor="@color/textNormalColor"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="30dp"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tại quận 10,Tp.Hồ Chí Minh"
+            android:id="@+id/txtMePostPlace"
+            android:textSize="14sp"
+            android:textColor="@color/textNormalColor"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="55dp"
+            />
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="30dp"
+            android:id="@+id/btnMeMenu"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_me_menu"
+            />
+    </RelativeLayout>
+    <!--Content -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtMeContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:lineSpacingMultiplier="1.2"
+            android:text="Như vậy căn cứ phổ điểm em sẽ xác định được số thí sinh có mức điểm bằng và cao hơn mức điểm của em trong năm 2017 là bao nhiêu, sau đó quay sang phổ điểm năm 2016, em sẽ xác định với số lượng thí sinh như vậy năm 2016 sẽ có điểm từ mức nào trở lên và như vậy em sẽ xác định được: trong vùng kết quả của em, phổ điểm năm nay sẽ cao hơn (hay thấp hơn) năm trước là bao nhiêu." />
+
+        <ImageView
+            android:id="@+id/imgMeMedia"
+            android:layout_width="fill_parent"
+            android:layout_height="350dp"
+            android:layout_marginLeft="4dp"
+            android:layout_marginRight="4dp"
+            android:background="@color/colorAccent"
+            android:layout_marginTop="15dp" />
+    </LinearLayout>
+    <!--Footer -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:weightSum="3"
+        >
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:id="@+id/btnMeComment"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_comment"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_me_comment"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnMeShare"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_share"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_me_share"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:id="@+id/btnMeLike"
+            android:layout_weight="1"
+            android:orientation="horizontal"
+            android:gravity="center"
+            >
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic__like"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_me_like"
+                android:textSize="14sp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

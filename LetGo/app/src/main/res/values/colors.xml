@@ -9,5 +9,6 @@
     <color name="textNormalColor">#424242</color>
     <color name="colorFacebook">#3b5998</color>
     <color name="colorGoogle">#d34836</color>
+    <color name="colorMeNormalText">#666666</color>
 
 </resources>

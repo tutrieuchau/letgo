@@ -15,6 +15,11 @@
     <string name="btn_active">Active</string>
     <string name="btn_rg_signin">SIGN IN</string>
     <string name="btn_resend_email">Resend Email</string>
+    <string name="btn_me_comment">Comment</string>
+    <string name="btn_me_share">Share</string>
+    <string name="btn_me_like">Like</string>
+
+    <!-- -->
     <string name="txt_sign_up">Dont have an account ?</string>
     <string name="txt_term">You agree to our Term and Private Policy</string>
     <string name="txt_rg_term">I agree with Term and Private Policy</string>
